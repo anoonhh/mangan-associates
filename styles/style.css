@@ -1,14 +1,17 @@
+
+/* Header */
 .top-section{
     background-color: #1A2B56;
-
 }
 
 .top-section h6{
     color: white;
 }
+
 .navbar-nav{
     font-family: poppins-regular;
 }
+
 .btn{
     background-color: #64C6C2;
     border-radius: 40px;
@@ -16,20 +19,23 @@
     color: white;
     font-family: poppins-medium;
 }
+
+/* Banner Section */
 .banner{
     background-image: url("../images/Rectangle 3.png");
     height: 700px;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 }
+
 .banner h1{
     color: white;
     font-family: poppins-semibold;
     word-spacing: 25px;
     font-size: 3rem;
 }
+
 .banner-button{
     background-color: #64C6C2;
     border-radius: 40px;
@@ -38,6 +44,8 @@
     font-family: poppins-medium;
     border: none;
 }
+
+/* Core Values */
 .core-values{
     font-family: poppins-extralight;
     font-size: 2rem;
@@ -45,28 +53,36 @@
     padding-top: 98px;
     padding-bottom: 102px;
 }
+
 .core-values hr{
      height:2px;
      color: #1A2B56 ;
      width: 70px;
-     opacity: 1;
-   
+     opacity: 1; 
 }
+
+/* About Section */
+#about-section .container{
+    margin-left: 0 !important;
+}
+
 .about-text{
     padding-top: 69px;
     padding-bottom: 69px;
     padding-left: 112px;
 }
+
 .about-text h3{
     font-family: noto-serif;
     font-size: 2rem;
     color: #1A2B56;
 }
+
 .about-text p{
     font-family: poppins-regular;
-    color: #4A4A4A;
-    
+    color: #4A4A4A; 
 }
+
 .about-text button{
      background-color: #64C6C2;
     border-radius: 40px;
@@ -76,38 +92,34 @@
     border: none;
 }
 
-
-#about-section .container{
-    margin-left: 0 !important;
-}
-
-
+/* Service Section */
 .service{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .service h3{
     font-family: noto-serif;
     font-size: 2.25rem;
     color: #1A2B56;
 }
+
 .service p{
     font-family: poppins-regular;
     color: #4A4A4A;
-    padding-right: 228px;
-    
-    
+    padding-right: 228px;    
 }
-.service-grid{
 
+.service-grid{
     position: relative;
     z-index: 1;
 }
+
 .service-grid img{
     width: 100%;
     height: auto;
-    
 }
+
 .service-grid h4{
     position: absolute;
     color: white;
@@ -116,21 +128,17 @@
     font-family: poppins-medium;
     font-size: 28px;
     word-spacing: 31px;
-    /* padding-left: 101px; */
     padding-bottom: 22px;
-    /* padding-right: 85px; */
 }
 
 .service-arrow{
     position: absolute;
     bottom: 31%;
-    /* bottom: 111px; */
-    /* left: 164px; */
     left: 40%;
     z-index: 7;
 }
-.box-shade{
 
+.box-shade{
     background-color: #1A2B56;
     opacity: 50%;
     position: absolute;
@@ -138,9 +146,9 @@
     width: 100%;
     z-index: 5;
     bottom: 0px;
-
 }
 
+/* Values Section */
 #values {
     background-image: url("../images/Rectangle\ 8.png");
     height: 469px;
@@ -148,18 +156,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .values-img1 img {
     width: 100%;
     height: 469px;
-    
-    
-
 }
+
 .values-img1{
     position: relative;
-}
-.values .container{
-    /* position: relative; */
 }
 
 .values-text{
@@ -171,50 +175,44 @@
     line-height: 2;
     bottom: 65px;
     padding-right: 38px;
-    word-spacing: 2px;
-    
-    
-    
+    word-spacing: 2px; 
 }
 
+/* Testimonials */
 .testimonial{
     padding-top: 100px;
     padding-bottom: 100px;
-   
-    
-
 }
+
 .quotes{
     margin-left: 80px;
 }
+
 .test-h2{
     color: #1A2B56;
     font-family: noto-serif;
     font-size: 36px;
-    /* padding-top: 100px; */
 }
+
 .test-container{
     background-color: #F1F2F5;
-    /* padding-left: 118px; */
     padding-top: 60px;
     margin-top: -50px;
-    
-    
-    
-
 }
+
 .test-clip-path{
     clip-path: polygon(50% 0%, 100% 50%, 0% 50%);
     background-color: #F1F2F5;
     width: 54px;
     height: 90px;
-    margin-left: 69px;
-    
+    margin-left: 69px; 
 }
+
 .test-container p{
     font-family: poppins-regular;
     font-size: 16px;
 }
+
 .test-btn{
      background-color: #64C6C2;
     border-radius: 40px;
@@ -223,135 +221,7 @@
     font-family: poppins-medium;
     border: none;
     margin-top: 70px;
-    font-size: 16px ;
-    
-}
-
-.news{
-    background-color: #F6F7F8;
-    /* opacity: 4%; */
-    padding-bottom: 114px;
-    
-}
-.date-overlay{
-    background-color: #64C6C2;
-    position: absolute;
-    z-index: 2;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    width: auto;
-    padding: 10px;
-    
-}
-.date-overlay h3{
-    font-family: poppins-regular;
-    color: #1A2B56;
-    font-size: 14px;
-    letter-spacing: 2px;
-    line-height: auto;
-    margin: 0;
-}
-.date-overlay hr{
-    color: #1A2B56;
-    line-height: auto;
-    margin: 5px;
-
-}
-.date-overlay h2{
-    font-family: poppins-semibold;
-    color: #1A2B56;
-    font-size: 32px;
-    letter-spacing: 2px;
-    line-height: 34px;
-    margin: 0;
-}
-.card {
-    position: relative;
-}
-
-.news-text{
-    font-family: noto-serif;
-    color: #1A2B56;
-    padding-top: 112px;
-    padding-bottom: 62px;
-}
-.card-text {
-    font-family: poppins-light;
-    
-}
-.card-body a{
-    text-decoration: none;
-    font-family: poppins-medium;
-    color: #1A2B56;
-    
-}
-.contact{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.contact h2{
-    font-family: noto-serif;
-    color: #1A2B56;
-    font-size: 36px;
-    padding-bottom: 60px;
-}
-.contact .container{
-    position: relative;
-}
-.contact-overlay{
-    background-color: #F8F9FA;
-    font-family: poppins-light;
-    padding-left: 110px;
-    width: 650px;
-    padding-top: 55px;
-    padding-bottom: 78px;
-    position:absolute;
-    padding-right: 32px;
-    left: 497px;
-    top: 280px;
-
-
-}
-.contact-overlay a{
-    color: #1A2B56;
-    text-decoration: none;
-    font-size: 20px;
-    
-}
-.contact-overlay h6{
-    font-size: 20px;
-    color: #1A2B56;
-}
-
-
-
-
-footer{
-    background-color: #1A2B56;
-    padding-top:65px ;
-}
-.nav-footer ul{
-    list-style-type: none;
-    gap: 3rem;
-    
-}
-.nav-footer a{
-    color: white;
-    font-family: poppins-regular;
-    text-decoration: none;
-
-}
-.nav-footer a.active{
-    color: #64C6C2;
-}
-footer hr{
-    width: 100%;
-    color: white;
-    height: 2px;
-}
-footer p{
-    font-family: poppins-light;
-    color: white;
+    font-size: 16px ; 
 }
 
 .slick-prev, .slick-next {
@@ -375,9 +245,11 @@ footer p{
   cursor: pointer;
   font-family: poppins-light;
 }
+
 .slick-prev {
   left: -21% !important;
 }
+
 .slick-next {
   right: -21% !important;
 }
@@ -387,9 +259,145 @@ footer p{
 }
 
 
+/* News Section */
+.news{
+    background-color: #F6F7F8;
+    padding-bottom: 114px;   
+}
+
+.date-overlay{
+    background-color: #64C6C2;
+    position: absolute;
+    z-index: 2;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: auto;
+    padding: 10px;   
+}
+
+.date-overlay h3{
+    font-family: poppins-regular;
+    color: #1A2B56;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: auto;
+    margin: 0;
+}
+
+.date-overlay hr{
+    color: #1A2B56;
+    line-height: auto;
+    margin: 5px;
+}
+
+.date-overlay h2{
+    font-family: poppins-semibold;
+    color: #1A2B56;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    margin: 0;
+}
+
+.card {
+    position: relative;
+}
+
+.news-text{
+    font-family: noto-serif;
+    color: #1A2B56;
+    padding-top: 112px;
+    padding-bottom: 62px;
+}
+
+.card-text {
+    font-family: poppins-light;
+    
+}
+
+.card-body a{
+    text-decoration: none;
+    font-family: poppins-medium;
+    color: #1A2B56;  
+}
+
+/* Contact Section */
+.contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact h2{
+    font-family: noto-serif;
+    color: #1A2B56;
+    font-size: 36px;
+    padding-bottom: 60px;
+}
+
+.contact .container{
+    position: relative;
+}
+
+.contact-overlay{
+    background-color: #F8F9FA;
+    font-family: poppins-light;
+    padding-left: 110px;
+    width: 650px;
+    padding-top: 55px;
+    padding-bottom: 78px;
+    position:absolute;
+    padding-right: 32px;
+    left: 497px;
+    top: 280px;
+}
+
+.contact-overlay a{
+    color: #1A2B56;
+    text-decoration: none;
+    font-size: 20px; 
+}
+
+.contact-overlay h6{
+    font-size: 20px;
+    color: #1A2B56;
+}
+
+/* Footer */
+footer{
+    background-color: #1A2B56;
+    padding-top:65px ;
+}
+
+.nav-footer ul{
+    list-style-type: none;
+    gap: 3rem;
+}
+
+.nav-footer a{
+    color: white;
+    font-family: poppins-regular;
+    text-decoration: none;
+}
+
+.nav-footer a.active{
+    color: #64C6C2;
+}
+
+footer hr{
+    width: 100%;
+    color: white;
+    height: 2px;
+}
+
+footer p{
+    font-family: poppins-light;
+    color: white;
+}
 
 
+/* Media Query */
 
+/* 1284px - 992px */
 @media only screen and (max-width: 1284px) and (min-width: 992px) {
 
     .contact-overlay{
@@ -403,9 +411,8 @@ footer p{
         padding-right: 32px;
         left: 315px;
         top: 278px;
-
-
     }
+
     .about-text{
         padding-left: 79px;
         padding-top: 0px;
@@ -414,13 +421,14 @@ footer p{
     .service-grid h4{
         font-size: 24px;
     }
+
     .box-shade{
         height: 40%;
     }
+
     .values-text{
         font-family: poppins-regular;
         position: absolute;
-
         color: white;
         left: 61px;
         line-height: 2;
@@ -428,20 +436,24 @@ footer p{
         padding-right: 38px;
         word-spacing: 2px;
     }
+
     .slick-prev {
         left: -23% !important;
     }
+
     .slick-next {
         right: -23% !important;
     }
     
 }
 
+/* 992px */
 @media only screen and (max-width: 992px) and (min-width: 992px) {
     .service-grid h4{
         font-size: 40px;
         bottom: 6px;
     }
+
     .service-arrow{
         bottom: 34%;
         left: 43%;
@@ -453,6 +465,8 @@ footer p{
     }
 
 }
+
+/* 992px - 768px */
 @media only screen and (max-width: 992px) and (min-width: 768px) {
 
      .contact-overlay{
@@ -466,8 +480,6 @@ footer p{
         padding-right: 32px;
         left: 88px;
         top: 346px;
-
-
     }
 
     .about-text{
@@ -475,45 +487,42 @@ footer p{
         padding-top: 0px;
     }
 
-
-    
     .text-column  {
         order: 1;
         text-align: center;
     }
     
-    
-
     .service-wrapper {
         order: 2;
-        width: 80%;
-        
+        width: 80%; 
         margin-top: 2rem;
         justify-content: center; /* Keeps images centered */
      }
 
     .service-grid {
          width: auto; /* Keeps them side-by-side */
-
     }
 
     .service p{
         padding-right: 0;
     }
+
     .date-overlay{
         width: 30%;
         padding: 0;
     }
+
     .date-overlay h2{
         font-size: 24px;
     }
+
     .date-overlay h3{
         font-size: 12px;
     }
+
      .values-text{
         font-family: poppins-regular;
         position: absolute;
-
         color: white;
         left: 36px;
         line-height: 1.5;
@@ -521,6 +530,7 @@ footer p{
         padding-right: 23px;
         word-spacing: 2px;
     }
+
     .about{
         display: flex;
         flex-direction: column;
@@ -528,16 +538,19 @@ footer p{
         justify-content: center !important;
     
     }
+
     .about > div {
         width: 100% !important; /* Makes both columns take full width */
         max-width: 100% !important; /* Prevents Bootstrap's column width limits */
         padding: 0 15px; /* Optional: Add horizontal padding if needed */
     }
+
     .about-button{
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .about-text{
         display: flex;
         flex-direction: column;
@@ -546,6 +559,7 @@ footer p{
         justify-content: center;
         text-align: center;
     }
+
    .service{
          padding-top: 100px;
    }
@@ -553,6 +567,7 @@ footer p{
     
 }
 
+/* 768px */
 @media only screen and (max-width: 768px) and (min-width: 768px) {
     .values-text {
         bottom: 25px !important;
@@ -566,6 +581,7 @@ footer p{
     }
 }
 
+/* 768px - 567px */
 @media only screen and (max-width: 768px) and (min-width: 576px) {
     .contact-overlay{
         background-color: #F8F9FA;
@@ -578,43 +594,52 @@ footer p{
         padding-right: 32px;
         left: 57px;
         top: 332px;
-
-
     }
+
     .contact-img img{
         width: 95%;
     }
+
      .service p{
         padding-right: 0;
     }
+
     .service h3{
         text-align: center;
     }
+
     .service{
         text-align: center;
     }
+
      .about-text{
         padding-left: 69px;
     }
+
     .core-values hr{
         width: 39px;
     }
+
     .core-values{
         font-size: 1.75rem;
     }
+
     .about-text h3 {
         text-align: center;
     }
+
     .about-button{
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .about > div {
         width: 100% !important; /* Makes both columns take full width */
         max-width: 100% !important; /* Prevents Bootstrap's column width limits */
         padding: 0 15px; /* Optional: Add horizontal padding if needed */
     }
+
     .about-text{
         display: flex;
         align-items: center;
@@ -623,10 +648,10 @@ footer p{
         text-align: center;
         margin-top: 30px;
     }
+
      .values-text{
         font-family: poppins-regular;
         position: absolute;
-
         color: white;
         left: 102px;
         line-height: 2;
@@ -634,19 +659,22 @@ footer p{
         padding-right: 107px;
         word-spacing: 2px;
     }
+
     .slick-prev {
         left: -37% !important;
     }
+
     .slick-next {
          right: -37% !important;
     }
+
     .nav-footer ul{
         gap: 1rem;
     }
 
 }
 
-
+/* 576px - below */
 @media only screen and (max-width: 576px) {
      .contact-overlay{
         background-color: #F8F9FA;
@@ -659,12 +687,12 @@ footer p{
         padding-right: 14px;
         left: 38px;
         top: 290px;
-
-
     }
+
     .contact-img img{
         width: 80%;
     }
+
      .service p{
         padding-right: 0;
     }
@@ -672,49 +700,60 @@ footer p{
     .service{
         text-align: center;
     }
+
     .about-text{
         padding-left: 29px  ;
     }
+
     .core-values hr{
         width: 18px;
     }
+
     .core-values{
         font-size: 1rem;
     }
+
     .card{
         width: 50%;
     }
+
     .service-grid h4{
         font-size: 21px;
         word-spacing: 67px;
         padding-bottom: 10px;
     }
+
     .service-arrow{
         max-width: 17%;
         left: 43%;
         bottom: 29%;
     }
+
     .box-shade{
         height: 35%;
     }
+
     .about-text h3 {
         text-align: center;
     }
+
     .about{
         text-align: center;
     }
+
     .about-button{
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .nav-footer ul{
         gap: 0.5rem;
     }
+
      .values-text{
         font-family: poppins-regular;
         position: absolute;
-
         color: white;
         left: 60px;
         line-height: 2;
@@ -722,13 +761,16 @@ footer p{
         padding-right: 40px;
         word-spacing: 2px;
     }
+
     .core-values{
         padding-top: 70px;
         padding-bottom: 70px;
     }
+
     .slick-prev {
         left: -34% !important;
     }
+    
     .slick-next {
          right: -34% !important;
     }
