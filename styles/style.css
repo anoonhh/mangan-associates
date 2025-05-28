@@ -115,7 +115,7 @@
     bottom: 0px;
     font-family: poppins-medium;
     font-size: 28px;
-    
+    word-spacing: 31px;
     /* padding-left: 101px; */
     padding-bottom: 22px;
     /* padding-right: 85px; */
@@ -167,9 +167,11 @@
     position: absolute;
     bottom: 0px;
     color: white;
-    left: 359px;
+    left: 250px;
     line-height: 2;
-    bottom: 84px;
+    bottom: 65px;
+    padding-right: 38px;
+    word-spacing: 2px;
     
     
     
@@ -178,6 +180,9 @@
 .testimonial{
     padding-top: 100px;
     padding-bottom: 100px;
+   
+    
+
 }
 .quotes{
     margin-left: 80px;
@@ -349,20 +354,55 @@ footer p{
     color: white;
 }
 
+.slick-prev, .slick-next {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: transparent !important;
+  color: #1A2B56 !important;
+  border: none;
+  font-size: 20px !important;
+  letter-spacing: 2px;
+  gap: 5px;
+  z-index: 1000;
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-family: poppins-light;
+}
+.slick-prev {
+  left: -21% !important;
+}
+.slick-next {
+  right: -21% !important;
+}
+
+.slick-prev::before, .slick-next::before {
+    display: none !important;
+}
+
+
+
+
 
 @media only screen and (max-width: 1284px) and (min-width: 992px) {
 
     .contact-overlay{
-    background-color: #F8F9FA;
-    font-family: poppins-light;
-    padding-left: 100px;
-    width: 650px;
-    padding-top: 55px;
-    padding-bottom: 78px;
-    position:absolute;
-    padding-right: 32px;
-    left: 315px;
-    top: 278px;
+        background-color: #F8F9FA;
+        font-family: poppins-light;
+        padding-left: 100px;
+        width: 650px;
+        padding-top: 55px;
+        padding-bottom: 78px;
+        position:absolute;
+        padding-right: 32px;
+        left: 315px;
+        top: 278px;
 
 
     }
@@ -375,26 +415,57 @@ footer p{
         font-size: 24px;
     }
     .box-shade{
-        height: 30%;
+        height: 40%;
     }
+    .values-text{
+        font-family: poppins-regular;
+        position: absolute;
 
+        color: white;
+        left: 61px;
+        line-height: 2;
+        bottom: 62px;
+        padding-right: 38px;
+        word-spacing: 2px;
+    }
+    .slick-prev {
+        left: -23% !important;
+    }
+    .slick-next {
+        right: -23% !important;
+    }
     
 }
 
+@media only screen and (max-width: 992px) and (min-width: 992px) {
+    .service-grid h4{
+        font-size: 40px;
+        bottom: 6px;
+    }
+    .service-arrow{
+        bottom: 34%;
+        left: 43%;
+    }
+    
+    .contact-overlay{
+        left: 306px !important;
+        top: 287px !important;
+    }
 
+}
 @media only screen and (max-width: 992px) and (min-width: 768px) {
 
      .contact-overlay{
-    background-color: #F8F9FA;
-    font-family: poppins-light;
-    padding-left: 73px;
-    width: 607px;
-    padding-top: 55px;
-    padding-bottom: 71px;
-    position:absolute;
-    padding-right: 32px;
-    left: 88px;
-    top: 346px;
+        background-color: #F8F9FA;
+        font-family: poppins-light;
+        padding-left: 73px;
+        width: 607px;
+        padding-top: 55px;
+        padding-bottom: 71px;
+        position:absolute;
+        padding-right: 32px;
+        left: 88px;
+        top: 346px;
 
 
     }
@@ -408,23 +479,23 @@ footer p{
     
     .text-column  {
         order: 1;
-     
+        text-align: center;
     }
     
     
 
-  .service-wrapper {
-    order: 2;
-    width: 80%;
-    
-    margin-top: 2rem;
-    justify-content: center; /* Keeps images centered */
-  }
+    .service-wrapper {
+        order: 2;
+        width: 80%;
+        
+        margin-top: 2rem;
+        justify-content: center; /* Keeps images centered */
+     }
 
-  .service-grid {
-    width: auto; /* Keeps them side-by-side */
+    .service-grid {
+         width: auto; /* Keeps them side-by-side */
 
-}
+    }
 
     .service p{
         padding-right: 0;
@@ -439,22 +510,74 @@ footer p{
     .date-overlay h3{
         font-size: 12px;
     }
+     .values-text{
+        font-family: poppins-regular;
+        position: absolute;
+
+        color: white;
+        left: 36px;
+        line-height: 1.5;
+        bottom: 60px;
+        padding-right: 23px;
+        word-spacing: 2px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center !important;
+    
+    }
+    .about > div {
+        width: 100% !important; /* Makes both columns take full width */
+        max-width: 100% !important; /* Prevents Bootstrap's column width limits */
+        padding: 0 15px; /* Optional: Add horizontal padding if needed */
+    }
+    .about-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 28px;
+        justify-content: center;
+        text-align: center;
+    }
+   .service{
+         padding-top: 100px;
+   }
     
     
 }
 
+@media only screen and (max-width: 768px) and (min-width: 768px) {
+    .values-text {
+        bottom: 25px !important;
+        padding-right: 7px !important;
+        left: 20px !important;
+    }
+
+    .contact-overlay {
+        left: 210px !important;
+        top: 400px !important;
+    }
+}
+
 @media only screen and (max-width: 768px) and (min-width: 576px) {
     .contact-overlay{
-    background-color: #F8F9FA;
-    font-family: poppins-light;
-    padding-left: 44px;
-    width: 485px;
-    padding-top: 55px;
-    padding-bottom: 60px;
-    position:absolute;
-    padding-right: 32px;
-    left: 57px;
-    top: 332px;
+        background-color: #F8F9FA;
+        font-family: poppins-light;
+        padding-left: 44px;
+        width: 485px;
+        padding-top: 55px;
+        padding-bottom: 60px;
+        position:absolute;
+        padding-right: 32px;
+        left: 57px;
+        top: 332px;
 
 
     }
@@ -465,6 +588,9 @@ footer p{
         padding-right: 0;
     }
     .service h3{
+        text-align: center;
+    }
+    .service{
         text-align: center;
     }
      .about-text{
@@ -484,21 +610,55 @@ footer p{
         justify-content: center;
         align-items: center;
     }
+    .about > div {
+        width: 100% !important; /* Makes both columns take full width */
+        max-width: 100% !important; /* Prevents Bootstrap's column width limits */
+        padding: 0 15px; /* Optional: Add horizontal padding if needed */
+    }
+    .about-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+     .values-text{
+        font-family: poppins-regular;
+        position: absolute;
+
+        color: white;
+        left: 102px;
+        line-height: 2;
+        bottom: 81px;
+        padding-right: 107px;
+        word-spacing: 2px;
+    }
+    .slick-prev {
+        left: -37% !important;
+    }
+    .slick-next {
+         right: -37% !important;
+    }
+    .nav-footer ul{
+        gap: 1rem;
+    }
+
 }
 
 
 @media only screen and (max-width: 576px) {
      .contact-overlay{
-    background-color: #F8F9FA;
-    font-family: poppins-light;
-    padding-left: 30px;
-    width: 419px;
-    padding-top: 33px;
-    padding-bottom: 33px;
-    position:absolute;
-    padding-right: 14px;
-    left: 38px;
-    top: 290px;
+        background-color: #F8F9FA;
+        font-family: poppins-light;
+        padding-left: 30px;
+        width: 419px;
+        padding-top: 33px;
+        padding-bottom: 33px;
+        position:absolute;
+        padding-right: 14px;
+        left: 38px;
+        top: 290px;
 
 
     }
@@ -508,7 +668,8 @@ footer p{
      .service p{
         padding-right: 0;
     }
-    .service h3{
+    
+    .service{
         text-align: center;
     }
     .about-text{
@@ -524,9 +685,22 @@ footer p{
         width: 50%;
     }
     .service-grid h4{
-        font-size: 27px;
+        font-size: 21px;
+        word-spacing: 67px;
+        padding-bottom: 10px;
+    }
+    .service-arrow{
+        max-width: 17%;
+        left: 43%;
+        bottom: 29%;
+    }
+    .box-shade{
+        height: 35%;
     }
     .about-text h3 {
+        text-align: center;
+    }
+    .about{
         text-align: center;
     }
     .about-button{
@@ -535,7 +709,28 @@ footer p{
         align-items: center;
     }
     .nav-footer ul{
-        gap: 1rem;
+        gap: 0.5rem;
+    }
+     .values-text{
+        font-family: poppins-regular;
+        position: absolute;
+
+        color: white;
+        left: 60px;
+        line-height: 2;
+        bottom: 86px;
+        padding-right: 40px;
+        word-spacing: 2px;
+    }
+    .core-values{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .slick-prev {
+        left: -34% !important;
+    }
+    .slick-next {
+         right: -34% !important;
     }
 
 }
